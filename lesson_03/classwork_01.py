@@ -22,5 +22,17 @@ print("   Задание 5")
 my_list = [1, 1.0, 2, 2, 5.0, "python", "python3", "python3"]
 my_set = set(my_list)
 print(len(my_list)-len(my_set))
-
+#Задание 6
+print("   Задание 6")
+my_list = [1, 1.0, 2, 2, 5.0, "python", "python3", "python3"]
+my_list[3], my_list[2], my_list[1]
+print(my_list[3])
+print(my_list[2])
+print(my_list[1])
+#Задание 7
+print("   Задание 7")
+a=int(input())
+print(a*4,"периметр")
+print(a*a,"площадь")
+print(a*1.414,"диагональ")
 
