@@ -1,7 +1,5 @@
 n = int(input("Введите n:"))
-result = 0
-current = 1
-while current <= n:
-    result += current ** 3
-    current +=1
-    print(result)
+print(n)
+for i in range(1,101):
+    if i % n == 0:
+        print(i)
