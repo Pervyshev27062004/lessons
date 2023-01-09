@@ -19,8 +19,10 @@ def my_decorator(func):
 
 @my_decorator
 def my_gun():
-    delay = random.randint(1, 5)
+    delay = random.randint(1, 6)
     sleep(delay)
 
 if __name__ == "__main__":
     my_gun()
+now = datetime.now()
+print(now)
