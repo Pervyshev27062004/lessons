@@ -6,6 +6,8 @@
  Каждый метод выводит сообщение на экран.
  Создать объект класса Dog, вызвать все методы объекта и вывести на экран все его атрибуты.
 """
+
+
 class Dog:
     height = None
     weight = None
@@ -17,11 +19,13 @@ class Dog:
 
     def jump(self):
         print(f"{self.name} is jumping")
+
     def run(self):
         print(f"{self.name} is running")
 
     def bark(self):
         print(f"{self.name} is barking")
+
 
 if __name__ == "__main__":
     dog = Dog(100, 50, "Bob", 10)
