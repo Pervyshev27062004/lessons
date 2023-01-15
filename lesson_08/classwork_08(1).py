@@ -8,7 +8,7 @@
 """
 
 
-class Dog:
+class Dog():
     height = None
     weight = None
     name = None
