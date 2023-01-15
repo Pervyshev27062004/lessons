@@ -5,7 +5,9 @@
 """
 from lesson_08.homework008 import Car
 
-S4 = Car("Mercedes", "E500", 2000, 95)
 
-print(S4.brand, S4.model, S4.year, S4.speed)
-S4.accelerate()
+if __name__ == "__main__":
+    S4 = Car("Mercedes", "E500", 2000, 95)
+
+    print(S4.brand, S4.model, S4.year, S4.speed)
+    S4.accelerate()
