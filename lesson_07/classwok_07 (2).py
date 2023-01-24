@@ -11,6 +11,7 @@ from time import sleep
 def my_decorator(func):
     def silencer():
         start_time = datetime.now()
+        print(start_time)
         func()
         end_time = datetime.now()
         print(end_time - start_time)
